@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="space_black">#0A0A0F</color>
+    <color name="electric_purple">#7C3AED</color>
+    <color name="electric_purple_dim">#337C3AED</color>
+    <color name="text_white">#F8F8FF</color>
+    <color name="surface_dark">#15151A</color>
+</resources>

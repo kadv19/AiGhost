@@ -1,6 +1,5 @@
 package com.example.aighostextractor
 
-import android.util.Log
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
@@ -455,29 +454,31 @@ fun OrbitIcons(
     val orbitRadius = 120f
     val angleOffset = 120f
 
-    OrbitIcon(
-        icon = Icons.Default.Email,
-        active = smsActive,
-        angle = if (isExtracting) rotation else 90f,
-        radius = orbitRadius,
-        description = "SMS"
-    )
+    Box(contentAlignment = Alignment.Center) {
+        OrbitIcon(
+            icon = Icons.Default.Email,
+            active = smsActive,
+            angle = if (isExtracting) rotation else 90f,
+            radius = orbitRadius,
+            description = "SMS"
+        )
 
-    OrbitIcon(
-        icon = Icons.Outlined.Description,
-        active = pdfActive,
-        angle = if (isExtracting) rotation + angleOffset else 210f,
-        radius = orbitRadius,
-        description = "PDF"
-    )
+        OrbitIcon(
+            icon = Icons.Outlined.Description,
+            active = pdfActive,
+            angle = if (isExtracting) rotation + angleOffset else 210f,
+            radius = orbitRadius,
+            description = "PDF"
+        )
 
-    OrbitIcon(
-        icon = Icons.Outlined.Image,
-        active = imageActive,
-        angle = if (isExtracting) rotation + 2 * angleOffset else 330f,
-        radius = orbitRadius,
-        description = "Image"
-    )
+        OrbitIcon(
+            icon = Icons.Outlined.Image,
+            active = imageActive,
+            angle = if (isExtracting) rotation + 2 * angleOffset else 330f,
+            radius = orbitRadius,
+            description = "Image"
+        )
+    }
 }
 
 @Composable

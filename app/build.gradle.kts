@@ -16,8 +16,7 @@ android {
     }
 
     defaultConfig {
-        // CHANGED ID TO FORCE FRESH INSTALL
-        applicationId = "com.example.aighostextractor.fresh"
+        applicationId = "com.example.aighostextractor"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

@@ -34,4 +34,4 @@ If you'd like to contribute to the project, please fork the repository and submi
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Contact:
-For any inquiries or feedback, please reach out to the project owner at [your-email@example.com].
+For any inquiries or feedback, please reach out to the project owner at [advaithk0019@gmail.com].
